@@ -7,7 +7,6 @@ from time import sleep as slp
 from humanfriendly import format_timespan
 import time
 import subprocess
-import urllib.request as ureq
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.set_window_size(1024, 600)
